@@ -8,9 +8,9 @@ public class Main {
     public static String getCategory(int salary) {
         if (salary >= 50000) {
             return "High";
-        } else if (salary >= 30000) {
-            return "Medium";
-        } else {
+        } else if (salary >= 34000) {
+    return "Medium";
+} else {
             return "Low";
         }
     }
